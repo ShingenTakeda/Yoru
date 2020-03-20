@@ -1,0 +1,12 @@
+[requires]
+glm/0.9.9.7
+imgui/1.75
+glad/0.1.33
+glfw/3.3.2@bincrafters/stable
+stb/20200203
+spdlog/1.5.0
+bullet3/2.89
+lua/5.3.5
+
+[generators]
+premake
