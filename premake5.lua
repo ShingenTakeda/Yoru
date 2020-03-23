@@ -61,6 +61,10 @@ project "Sandbox"
 
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+
+    pchheader "ypch.h"
+	pchsource "Yoru/src/ypch.cpp"
+
     
     files
 	{
