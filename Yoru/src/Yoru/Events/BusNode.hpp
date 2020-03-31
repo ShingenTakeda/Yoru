@@ -14,7 +14,7 @@ namespace Yoru
                 this->messageBus = messageBus;
                 this->messageBus->AddReceiver(this->GetNotifyFunc());
             }
-            //Remember to implement the stuuf in the update function
+            //Remember to implement the stuff in the update function
 
         protected:
             MessageBus *messageBus;
